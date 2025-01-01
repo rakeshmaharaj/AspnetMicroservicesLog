@@ -9,8 +9,10 @@ Build pipeline will be setup using Azure Container Registry, Kubernetes, Azure K
 ## Installation & Setup
 #### To start, run below command:
 ```
-docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d --build
+docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d
 ```
+For next time build 
+docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d --build
 #### To stop, run below command:
 ```
 docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml down
